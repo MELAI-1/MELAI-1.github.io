@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "name": "Fokam Ninyim",
+    "pillars": "Pillars",
+    "projects": "Projects",
+    "leadership": "Leadership",
+    "contact": "Contact",
+    "collaborate": "Collaborate"
+  },
+  "domains": {
+    "climate": "Climate AI",
+    "quantum": "Quantum Computing",
+    "bio": "Biotech & Health",
+    "nlp": "NLP",
+    "systems": "Applied Systems",
+    "finance": "Finance & ML",
+    "all": "All"
+  },
+  "hero": {
+    "eyebrow": "// GOOGLE DEEPMIND SCHOLAR · AIMS SOUTH AFRICA × STELLENBOSCH UNIVERSITY",
+    "headlinePrefix": "From Qubits to Climate Models —",
+    "headlineHighlight": "Engineering Intelligence",
+    "headlineSuffix": "at the Edge of Science.",
+    "intro": "I'm Astride Melvin Fokam Ninyim — a Data Scientist and AI for Science researcher operating across <ml>Machine Learning</ml>, <quantum>Quantum Computing</quantum>, <climate>Climate Tech</climate>, and <bio>Biotech</bio>. COO at <synthi>SYNTHI AI</synthi>.",
+    "exploreProjects": "Explore the Project Hub",
+    "downloadCv": "Download CV",
+    "photoName": "Astride Melvin Fokam Ninyim",
+    "photoRole": "AI for Science Researcher",
+    "metrics": {
+      "flagship": "Flagship Systems Shipped",
+      "domains": "Research Domains",
+      "hackathon": "Africa's Quantum Hackathon",
+      "awards": "Best Paper / Poster Awards"
+    }
+  },
+  "pillars": {
+    "sectionLabel": "RESEARCH FIELDS",
+    "heading": "Four pillars, one throughline: science that ships.",
+    "climate": {
+      "title": "AI for Science — Climate",
+      "description": "Deep learning on atmospheric reanalysis data to push weather and climate forecasting beyond classical numerical models."
+    },
+    "quantum": {
+      "title": "Quantum Computing",
+      "description": "Variational and hybrid quantum algorithms — from molecular simulation to quantum machine learning on real QPU hardware."
+    },
+    "bio": {
+      "title": "Biotech & Public Health",
+      "description": "Computer vision and federated learning applied to disease surveillance, diagnosis, and health infrastructure across Africa."
+    },
+    "systems": {
+      "title": "Applied AI Systems",
+      "description": "Full-stack, production-grade software that puts research-grade ML into the hands of real users."
+    }
+  },
+  "projectHub": {
+    "sectionLabel": "THE INTERACTIVE MATRIX",
+    "heading": "Project Hub",
+    "subtitle": "{count} public repositories, filterable by research domain — plus the awards and publications that don't have a repo attached.",
+    "viewRepository": "View repository"
+  },
+  "projects": {
+    "safechild": {
+      "title": "SafeChild Global",
+      "tagline": "Biometric identity, SOS emergency response, and a multilingual AI assistant for citizen safety across Africa.",
+      "metrics": ["4 languages incl. Pidgin & Fulfulde", "Offline-first PWA", "Face recognition + ID/passport OCR"]
+    },
+    "memoire-ontologie": {
+      "title": "Human-in-the-Loop Ontology Enrichment",
+      "tagline": "An LLM pipeline that proposes, reasons over, and safely enriches security knowledge graphs — nothing writes to the ontology without human review.",
+      "metrics": ["Sandboxed HermiT / Pellet reasoning", "Active-learning clarification loop", "Full provenance & version history"]
+    },
+    "movie-recommender-system": {
+      "title": "MovieLens 32M Recommender",
+      "tagline": "A from-scratch ALS + BPR recommender engine engineered to run 32 million ratings on standard hardware.",
+      "metrics": ["32M ratings processed", "76GB → 300MB via sparse matrices", "200k users trained in seconds (Numba JIT)"]
+    },
+    "quantum-computing-project": {
+      "title": "Quantum & Quantum ML Lab",
+      "tagline": "Variational and hybrid quantum algorithms — from VQE to quantum machine learning, executed on real QPU hardware.",
+      "metrics": ["VQE, QAOA, QCNN, QGAN implementations", "GHZ states run on Rigetti “Garnet” QPU", "Quantum ML for malware & clinical classification"]
+    },
+    "aims-project": {
+      "title": "AIMS Master's Thesis — Atmospheric Forecasting",
+      "tagline": "Deep learning on ERA5 reanalysis data for atmospheric forecasting, developed as part of the AIMS South Africa / Google DeepMind Scholarship.",
+      "metrics": ["Multi-variable ERA5 pipeline (wind, humidity, precipitation)", "TFRecord-based training pipeline", "AIMS South Africa × Google DeepMind Scholar"]
+    },
+    "ai-for-climate": {
+      "title": "AI for Climate",
+      "tagline": "Climate indicator analysis, remote sensing pipelines, and ML weather-model benchmarking.",
+      "metrics": ["WeatherBench 2 skill evaluation", "Remote sensing data processing"]
+    },
+    "ai-for-public-health": {
+      "title": "AI for Public Health",
+      "tagline": "Computer vision for public-health infrastructure monitoring.",
+      "metrics": ["YOLOv6 object detection", "Wastewater treatment plant detection"]
+    },
+    "polarization-identification-nlp": {
+      "title": "Polarization Identification (EN / SW)",
+      "tagline": "Multi-task polarization detection in English and Swahili social media text.",
+      "metrics": ["3 classification subtasks", "Language-specific modeling strategy"]
+    },
+    "netbank": {
+      "title": "Nedbank Transaction Forecasting",
+      "tagline": "Forecasting 18M+ rows of bank transaction volume for the Nedbank / Zindi challenge.",
+      "metrics": ["18M+ transaction rows", "Stacked LGBM + XGBoost + CatBoost ensemble"]
+    },
+    "cyberphysical-systems": {
+      "title": "Cyber-Physical Systems Lab",
+      "tagline": "A structured learning system for CPS — IoT, autonomous vehicles, industrial control, edge computing.",
+      "metrics": ["Manim-animated technical explainers", "6 CPS subdomains covered"]
+    },
+    "my-project": {
+      "title": "Applied AI Portfolio",
+      "tagline": "Broader applied-AI work spanning credit risk modeling, portfolio optimization, and multilingual NLP.",
+      "metrics": ["Credit risk: PD / LGD / EAD / EL modeling", "5 domains: NLP, CV, Finance, Climate, ML"]
+    },
+    "qualaria": {
+      "title": "Qualaria",
+      "tagline": "Accelerating antimalarial drug discovery with VQE, Qiskit Nature, and AlphaFold.",
+      "metrics": ["1st Place", "Sustainability Award"],
+      "meta": "🏆 Africa's First Quantum Hackathon"
+    },
+    "federated-respiratory-forecasting": {
+      "title": "Federated Learning for Respiratory Disease Forecasting",
+      "tagline": "Privacy-first federated learning for respiratory disease forecasting across African health systems.",
+      "metrics": ["Best Poster Award"],
+      "meta": "🏅 Deep Learning Indaba"
+    },
+    "plant-disease-diagnosis": {
+      "title": "Plant Disease Diagnosis",
+      "tagline": "Published research on plant disease diagnosis using MobileNet and Inception architectures.",
+      "metrics": ["Peer-reviewed publication"],
+      "meta": "📄 Published Research"
+    }
+  },
+  "leadership": {
+    "sectionLabel": "LEADERSHIP & INDUSTRY",
+    "heading": "Beyond the notebook.",
+    "industry": {
+      "label": "INDUSTRY",
+      "title": "COO — SYNTHI AI",
+      "description": "Chief Operating Officer at SYNTHI AI, a global Agri-Tech & Climate Systems company — directing operations that put applied AI into the hands of real users and real farms."
+    },
+    "scholarship": {
+      "label": "SCHOLARSHIP",
+      "title": "Google DeepMind Scholar",
+      "description": "Google DeepMind Scholar at the African Institute for Mathematical Sciences (AIMS) South Africa and Stellenbosch University, researching AI for atmospheric and climate science."
+    },
+    "teaching": {
+      "label": "TEACHING & OUTREACH",
+      "title": "Workshops & Scientific Outreach",
+      "description": "Builds and delivers hands-on technical workshops — including Manim-animated explainers for cyber-physical systems — and maintains curated learning resources for the next generation of African scientists."
+    }
+  },
+  "contact": {
+    "sectionLabel": "COLLABORATION HUB",
+    "heading": "Let's build the next thing at the edge of science.",
+    "subtitle": "Open to research collaborations, quantum & climate AI projects, and conversations about applied ML in African contexts.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "builtWith": "Built with Next.js, Framer Motion & React Three Fiber"
+  }
+}

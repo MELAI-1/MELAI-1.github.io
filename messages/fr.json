@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "name": "Fokam Ninyim",
+    "pillars": "Piliers",
+    "projects": "Projets",
+    "leadership": "Leadership",
+    "contact": "Contact",
+    "collaborate": "Collaborer"
+  },
+  "domains": {
+    "climate": "IA & Climat",
+    "quantum": "Informatique Quantique",
+    "bio": "Biotech & Santé",
+    "nlp": "TAL",
+    "systems": "Systèmes Appliqués",
+    "finance": "Finance & ML",
+    "all": "Tout"
+  },
+  "hero": {
+    "eyebrow": "// GOOGLE DEEPMIND SCHOLAR · AIMS AFRIQUE DU SUD × UNIVERSITÉ DE STELLENBOSCH",
+    "headlinePrefix": "Des qubits aux modèles climatiques —",
+    "headlineHighlight": "L'ingénierie de l'intelligence",
+    "headlineSuffix": "aux frontières de la science.",
+    "intro": "Je suis Astride Melvin Fokam Ninyim — Data Scientist et chercheur en IA pour la science, opérant entre <ml>Machine Learning</ml>, <quantum>Informatique Quantique</quantum>, <climate>Climate Tech</climate> et <bio>Biotech</bio>. COO chez <synthi>SYNTHI AI</synthi>.",
+    "exploreProjects": "Explorer les projets",
+    "downloadCv": "Télécharger le CV",
+    "photoName": "Astride Melvin Fokam Ninyim",
+    "photoRole": "Chercheur en IA pour la Science",
+    "metrics": {
+      "flagship": "Systèmes phares déployés",
+      "domains": "Domaines de recherche",
+      "hackathon": "1er Hackathon Quantique d'Afrique",
+      "awards": "Prix du meilleur article / poster"
+    }
+  },
+  "pillars": {
+    "sectionLabel": "DOMAINES DE RECHERCHE",
+    "heading": "Quatre piliers, un seul fil conducteur : une science qui se déploie.",
+    "climate": {
+      "title": "IA pour la Science — Climat",
+      "description": "Apprentissage profond sur des données de réanalyse atmosphérique pour dépasser les modèles numériques classiques de prévision météo et climatique."
+    },
+    "quantum": {
+      "title": "Informatique Quantique",
+      "description": "Algorithmes quantiques variationnels et hybrides — de la simulation moléculaire à l'apprentissage automatique quantique sur du vrai matériel QPU."
+    },
+    "bio": {
+      "title": "Biotech & Santé Publique",
+      "description": "Vision par ordinateur et apprentissage fédéré appliqués à la surveillance des maladies, au diagnostic et aux infrastructures de santé en Afrique."
+    },
+    "systems": {
+      "title": "Systèmes d'IA Appliquée",
+      "description": "Des logiciels complets, de qualité production, qui mettent le ML de niveau recherche entre les mains d'utilisateurs réels."
+    }
+  },
+  "projectHub": {
+    "sectionLabel": "LA MATRICE INTERACTIVE",
+    "heading": "Projets",
+    "subtitle": "{count} dépôts publics, filtrables par domaine de recherche — ainsi que les prix et publications qui n'ont pas de dépôt associé.",
+    "viewRepository": "Voir le dépôt"
+  },
+  "projects": {
+    "safechild": {
+      "title": "SafeChild Global",
+      "tagline": "Identité biométrique, réponse d'urgence SOS et assistant IA multilingue pour la sécurité des citoyens à travers l'Afrique.",
+      "metrics": ["4 langues dont le Pidgin & le Fulfulde", "PWA offline-first", "Reconnaissance faciale + OCR pièce d'identité"]
+    },
+    "memoire-ontologie": {
+      "title": "Enrichissement d'Ontologie Supervisé par l'Humain",
+      "tagline": "Un pipeline LLM qui propose, raisonne et enrichit en toute sécurité des graphes de connaissances de sécurité — rien n'est écrit sans validation humaine.",
+      "metrics": ["Raisonnement HermiT / Pellet en bac à sable", "Boucle de clarification par apprentissage actif", "Traçabilité complète & historique des versions"]
+    },
+    "movie-recommender-system": {
+      "title": "Système de Recommandation MovieLens 32M",
+      "tagline": "Un moteur de recommandation ALS + BPR conçu de zéro pour traiter 32 millions de notes sur du matériel standard.",
+      "metrics": ["32M de notes traitées", "76 Go → 300 Mo grâce aux matrices creuses", "200k utilisateurs entraînés en secondes (Numba JIT)"]
+    },
+    "quantum-computing-project": {
+      "title": "Laboratoire Quantique & ML Quantique",
+      "tagline": "Algorithmes quantiques variationnels et hybrides — du VQE au machine learning quantique, exécutés sur du vrai matériel QPU.",
+      "metrics": ["Implémentations VQE, QAOA, QCNN, QGAN", "États GHZ exécutés sur le QPU Rigetti « Garnet »", "ML quantique pour la classification de malwares & clinique"]
+    },
+    "aims-project": {
+      "title": "Mémoire de Master AIMS — Prévision Atmosphérique",
+      "tagline": "Apprentissage profond sur des données de réanalyse ERA5 pour la prévision atmosphérique, dans le cadre de la bourse AIMS Afrique du Sud / Google DeepMind.",
+      "metrics": ["Pipeline ERA5 multi-variables (vent, humidité, précipitations)", "Pipeline d'entraînement basé sur TFRecord", "AIMS Afrique du Sud × Google DeepMind Scholar"]
+    },
+    "ai-for-climate": {
+      "title": "IA pour le Climat",
+      "tagline": "Analyse d'indicateurs climatiques, pipelines de télédétection et benchmarking de modèles météo par ML.",
+      "metrics": ["Évaluation de performance WeatherBench 2", "Traitement de données de télédétection"]
+    },
+    "ai-for-public-health": {
+      "title": "IA pour la Santé Publique",
+      "tagline": "Vision par ordinateur pour la surveillance des infrastructures de santé publique.",
+      "metrics": ["Détection d'objets YOLOv6", "Détection de stations de traitement des eaux usées"]
+    },
+    "polarization-identification-nlp": {
+      "title": "Identification de la Polarisation (EN / SW)",
+      "tagline": "Détection multi-tâches de la polarisation dans des textes de réseaux sociaux en anglais et en swahili.",
+      "metrics": ["3 sous-tâches de classification", "Stratégie de modélisation spécifique à chaque langue"]
+    },
+    "netbank": {
+      "title": "Prévision des Transactions Nedbank",
+      "tagline": "Prévision de plus de 18M de lignes de volume de transactions bancaires pour le défi Nedbank / Zindi.",
+      "metrics": ["18M+ lignes de transactions", "Ensemble empilé LGBM + XGBoost + CatBoost"]
+    },
+    "cyberphysical-systems": {
+      "title": "Laboratoire des Systèmes Cyber-Physiques",
+      "tagline": "Un système d'apprentissage structuré pour les CPS — IoT, véhicules autonomes, contrôle industriel, edge computing.",
+      "metrics": ["Explications techniques animées avec Manim", "6 sous-domaines CPS couverts"]
+    },
+    "my-project": {
+      "title": "Portfolio d'IA Appliquée",
+      "tagline": "Travaux d'IA appliquée plus larges couvrant la modélisation du risque de crédit, l'optimisation de portefeuille et le TAL multilingue.",
+      "metrics": ["Risque de crédit : modélisation PD / LGD / EAD / EL", "5 domaines : TAL, Vision, Finance, Climat, ML"]
+    },
+    "qualaria": {
+      "title": "Qualaria",
+      "tagline": "Accélérer la découverte de médicaments antipaludiques avec VQE, Qiskit Nature et AlphaFold.",
+      "metrics": ["1ère Place", "Prix de la Durabilité"],
+      "meta": "🏆 1er Hackathon Quantique d'Afrique"
+    },
+    "federated-respiratory-forecasting": {
+      "title": "Apprentissage Fédéré pour la Prévision des Maladies Respiratoires",
+      "tagline": "Apprentissage fédéré respectueux de la vie privée pour la prévision des maladies respiratoires à travers les systèmes de santé africains.",
+      "metrics": ["Prix du Meilleur Poster"],
+      "meta": "🏅 Deep Learning Indaba"
+    },
+    "plant-disease-diagnosis": {
+      "title": "Diagnostic des Maladies des Plantes",
+      "tagline": "Recherche publiée sur le diagnostic des maladies des plantes utilisant les architectures MobileNet et Inception.",
+      "metrics": ["Publication évaluée par des pairs"],
+      "meta": "📄 Recherche Publiée"
+    }
+  },
+  "leadership": {
+    "sectionLabel": "LEADERSHIP & INDUSTRIE",
+    "heading": "Au-delà du notebook.",
+    "industry": {
+      "label": "INDUSTRIE",
+      "title": "COO — SYNTHI AI",
+      "description": "Directeur des opérations chez SYNTHI AI, une entreprise mondiale d'Agri-Tech & de Systèmes Climatiques — pilotant des opérations qui mettent l'IA appliquée entre les mains d'utilisateurs et d'exploitations agricoles réels."
+    },
+    "scholarship": {
+      "label": "BOURSE",
+      "title": "Google DeepMind Scholar",
+      "description": "Google DeepMind Scholar à l'African Institute for Mathematical Sciences (AIMS) Afrique du Sud et à l'Université de Stellenbosch, recherchant l'IA appliquée aux sciences atmosphériques et climatiques."
+    },
+    "teaching": {
+      "label": "ENSEIGNEMENT & SENSIBILISATION",
+      "title": "Ateliers & Sensibilisation Scientifique",
+      "description": "Conçoit et anime des ateliers techniques pratiques — dont des explications animées avec Manim sur les systèmes cyber-physiques — et maintient des ressources pédagogiques pour la prochaine génération de scientifiques africains."
+    }
+  },
+  "contact": {
+    "sectionLabel": "ESPACE DE COLLABORATION",
+    "heading": "Construisons la prochaine avancée aux frontières de la science.",
+    "subtitle": "Ouvert aux collaborations de recherche, aux projets d'IA quantique & climatique, et aux échanges sur le ML appliqué en contexte africain.",
+    "email": "Courriel",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "builtWith": "Conçu avec Next.js, Framer Motion & React Three Fiber"
+  }
+}
